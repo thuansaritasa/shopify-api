@@ -1,0 +1,104 @@
+[
+  {
+    "name": "ApiVersion",
+    "description": "ApiVersion is a really cool thing",
+    "isVisualComponent": false,
+    "definitions": [
+      {
+        "title": "Template schemas",
+        "description": "**Template schemas** are the data shape that are used to generate the page.",
+        "type": "ApiVersion",
+        "typeDefinitions": {
+          "ApiVersion": {
+            "filePath": "src/ApiVersion.php",
+            "name": "ApiVersion",
+            "value": "",
+            "members": [
+              {
+                "filePath": "src/ApiVersion.php",
+                "name": "UNSTABLE",
+                "value": "\"unstable\""
+              },
+              {
+                "filePath": "src/ApiVersion.php",
+                "name": "JANUARY_2022",
+                "value": "\"2022-01\""
+              },
+              {
+                "filePath": "src/ApiVersion.php",
+                "name": "APRIL_2022",
+                "value": "\"2022-04\""
+              },
+              {
+                "filePath": "src/ApiVersion.php",
+                "name": "JULY_2022",
+                "value": "\"2022-07\""
+              },
+              {
+                "filePath": "src/ApiVersion.php",
+                "name": "OCTOBER_2022",
+                "value": "\"2022-10\""
+              },
+              {
+                "filePath": "src/ApiVersion.php",
+                "name": "JANUARY_2023",
+                "value": "\"2023-01\""
+              },
+              {
+                "filePath": "src/ApiVersion.php",
+                "name": "LATEST",
+                "value": "self::JANUARY_2023"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "category": "Category",
+    "subCategory": "Subcategory",
+    "thumbnail": "thumbnail.png",
+    "examples": {
+      "description": "A section for examples."
+    },
+    "related": [
+      {
+        "name": "Static page",
+        "url": "/api/generate-docs/template/static-page-template",
+        "type": "template"
+      }
+    ]
+  },
+  {
+    "name": "Context",
+    "description": "Context is a really cool thing",
+    "isVisualComponent": false,
+    "definitions": [
+      {
+        "title": "Template schemas",
+        "description": "**Template schemas** are the data shape that are used to generate the page.",
+        "type": "Context",
+        "typeDefinitions": {
+          "Context": {
+            "filePath": "src/Context.php",
+            "name": "Context",
+            "value": "",
+            "members": []
+          }
+        }
+      }
+    ],
+    "category": "Category",
+    "subCategory": "Subcategory",
+    "thumbnail": "thumbnail.png",
+    "examples": {
+      "description": "A section for examples."
+    },
+    "related": [
+      {
+        "name": "Static page",
+        "url": "/api/generate-docs/template/static-page-template",
+        "type": "template"
+      }
+    ]
+  }
+]

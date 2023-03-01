@@ -1,0 +1,13 @@
+{
+  "name": "docs_new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@shopify/generate-docs": "file:shopify-generate-docs-0.8.10.tgz"
+  },
+  "scripts": {
+    "build-docs": "sh ./docs/build-docs.sh",
+    "validate-docs": "sh ./docs/build-docs.sh isTest && yarn compare-docs"
+  }
+}

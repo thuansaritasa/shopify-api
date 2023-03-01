@@ -1,0 +1,29 @@
+[
+  {
+    "id": "shopify-api-php",
+    "title": "Test title",
+    "description": "Test description",
+    "image": "/assets/landing-pages/templated-apis/hero.png",
+    "darkImage": "/assets/landing-pages/templated-apis/hero-dark.png",
+    "tabletImage": "/assets/landing-pages/templated-apis/hero.png",
+    "tabletDarkImage": "/assets/landing-pages/templated-apis/hero-dark.png",
+    "mobileImage": "/assets/landing-pages/templated-apis/hero.png",
+    "mobileDarkImage": "/assets/landing-pages/templated-apis/hero-dark.png",
+    "sections": [
+      {
+        "type": "Resource",
+        "anchorLink": "Resource anchorLink",
+        "title": "Resource title",
+        "resources": [
+          {
+            "name": "Resource name",
+            "subtitle": "Resource subtitle",
+            "url": "/docs/api/shopify-api-php/category/subcategory/apiversion",
+            "type": "Resource type",
+            "featureFlag": "Resource featureFlag"
+          }
+        ]
+      }
+    ]
+  }
+]
