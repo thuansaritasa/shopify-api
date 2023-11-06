@@ -1,6 +1,6 @@
 {
-    "name": "shopify/shopify-api",
-    "description": "Shopify API Library for PHP",
+    "name": "thuansaritasa/shopify-api-custom",
+    "description": "Customization for Shopify API PHP Library",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -16,8 +16,8 @@
     ],
     "authors": [
         {
-            "name": "Shopify Inc.",
-            "email": "dev-tools-education@shopify.com"
+            "name": "Thuan Chau",
+            "email": "thuan.chau@saritasa.com"
         }
     ],
     "autoload": {
